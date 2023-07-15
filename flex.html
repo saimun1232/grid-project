@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex practise</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 40vh;
+            background-color: aquamarine;
+            display: flex;
+            /* justify-content:end; */
+            /* justify-content: baseline; */
+            /* justify-content: flex-end; */
+            /* justify-content: flex-start; */
+            /* justify-content: center; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            justify-content: space-around;
+            /* align-items: baseline; */
+            /* align-items: center; */
+            /* align-items: end; */
+            /* align-items: flex-start; */
+            align-items: center;
+            /* flex-direction: column; */
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse; */
+            /* flex-wrap: nowrap; */
+        }
+        .container>div{
+            background-color: aqua;
+            width: 200px;
+            text-align: center;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>day-1</div>
+        <div>day-2</div>
+        <div>day-3</div>
+        <div>day-4</div>
+        <div>day-5</div>
+        <div>day-1</div>
+        <div>day-2</div>
+        <div>day-3</div>
+        <div>day-4</div>
+        <div>day-5</div>
+    </div>
+</body>
+</html>
